@@ -27,6 +27,14 @@
 - оптической системы;
 - электроники, конвертирующей оптический сигнал в электрические импульсы, анализируемые компьютером;
 - системы анализа данных, собирающей статистику.
+
+![img.png](img.png)
+<figcaption align="center">Рис.1 Проточная цитометрия. 
+Первые приборы использовали потоки воздуха.
+Источник 
+[1]
+</figcaption>
+
 ## Виды цитометров
 ```mermaid
     flowchart TD
@@ -39,13 +47,6 @@
         C --> C2[Сортировка клеток по заданному параметру]
 ```
 
-![img.png](img.png)
-<figcaption align="center">Рис.1 Проточная цитометрия. 
-Первые приборы использовали потоки воздуха.
-Источник 
-[The principle of the flow cytometry technique and its applicability]
-</figcaption>
-
 Как правило в качестве лазера используется аргоновый лазер с длиной волны 488 нм, хотя  в некоторых приборах
 имеет место диодный лазер с длиной волны 635 нм. Лазерный пучок фокусируется с помощью системы линз на 
 клетках и рассеивается на них. Отличают два вида рассеивания света на клетках:
@@ -56,7 +57,7 @@
 ![img_1.png](img_1.png)
 <figcaption align="center">Рис.2 Рассеяние света позволяет проводить анализ
 клеток, проходящих через тонкую трубку цитометра и облученных лазером.
-[The principle of the flow cytometry technique and its applicability]
+[1]
 </figcaption>
 
 
@@ -78,7 +79,7 @@
 (порядка нескольких микросекунд). При этом клетки протекают с относительно 
 постоянно скоростью, что делает измерения интенсивности **высокоточными**.
 Кроме того, проточная цитометрия позволяет проводить измерения нескольких
-параметров одновременно.
+параметров одновременно [2].
 
 ### Выбор флюорофора
 Важно выбирать флюорофор таким образом, чтобы его энергия возбуждения приходилась
@@ -88,8 +89,7 @@
 
 При использовании нескольких флюорофоров важно подобрать их таким образом, чтобы рассеиваемое 
 клетками излучение было достаточно различимым. Хотя существует возможность различать почти накладывающиеся 
-пики интенсивностей, если форма спектра у флюорофоров отличается [Spectral Cytometry Has Unique Properties 
-Allowing Multicolor Analysis of Cell Suspensions Isolated from Solid Tissues]
+пики интенсивностей, если форма спектра у флюорофоров отличается [3]
 
 ## Цитометрия сегодня
 
@@ -104,3 +104,9 @@ Allowing Multicolor Analysis of Cell Suspensions Isolated from Solid Tissues]
 ![img_3.png](img_3.png)
 <figcaption align="center"> Сортирующий цитометр Sony SH800S
 </figcaption>
+
+## Источники
+[1] The principle of the flow cytometry technique and its applicability, Katarzyna Petka
+[2] Practical flow cytometry (4th edition), Howard Shapiro
+[3] Spectral Cytometry Has Unique Properties 
+Allowing Multicolor Analysis of Cell Suspensions Isolated from Solid Tissues, Sandrine Schmutz et al.
